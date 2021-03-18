@@ -16,7 +16,7 @@ const Row = (props)=>{
         }
         fetchData();
     },[props.fetchURL]);
-    console.log(movies);
+    // console.log(movies);
 
     return(<>
         <div className ='row'>
